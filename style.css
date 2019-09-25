@@ -6,6 +6,7 @@ html {
     font-size: 10px;
 }
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     font-size: 2rem;
     display: flex;
@@ -20,7 +21,7 @@ body {
     height: 30rem;
     border: 5px solid rgba(255, 255, 255, 0.6);
     border-radius: 50%;
-    margin: 50px auto;
+    margin: auto;
     position: relative;
     padding: 2rem;
     box-shadow:
@@ -56,8 +57,8 @@ body {
 }
 
 #tempo {
-    letter-spacing: -17px;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: -17px;
     color: rgba(255, 255, 255, 0.87);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9), 3px 3px 3px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -69,7 +70,7 @@ body {
 
 .slider {
   -webkit-appearance: none;
-  width: 100%;
+  width: 70%;
   height: 6px;
   border-radius: 5px;  
   background-image: rgba(255, 255, 255, 0.6);;
@@ -77,6 +78,14 @@ body {
   opacity: 0.6;
   -webkit-transition: .2s;
   transition: opacity .2s;
+  margin-top: 5rem;
+}
+
+.slider:hover{
+  box-shadow: 
+    0 0 1rem#03A9F4,
+    inset 0 0 0 2px rgba(2, 119, 189, 0.6);
+    text-shadow: #03A9F4;
 }
 
 .slider::-webkit-slider-thumb {
@@ -96,4 +105,20 @@ input[type=number]::-webkit-inner-spin-button {
 
 input:focus {
     outline: none;
+}
+
+.content-wrapper {
+  max-width: 80%;
+  min-height: 100vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 12rem;
+  align-self: flex-start;
+  justify-self: flex-start;
+  padding: 1rem;
+  margin-top: 0;
+  margin-bottom: 15rem;
+  color: rgba(255, 255, 255, 0.87);
 }
