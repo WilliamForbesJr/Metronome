@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- <link rel="stylesheet" href="style.css"> -->
+<link rel="stylesheet" href="style.css">
     <title>Metrnome</title>
 </head>
 
 <body>
-    <input id="tempo" placeholder="Set Tempo" type="number">
-    <button id="start">Click</button>
+    <div class="content-wrapper">
+        <div class="metronome-wrapper">
+            <div class="metronome">
+                <input id="tempo" value="60" type="number">
+            </div>
+        </div>
+        <input type="range" min="30" max="260" value="60" class="slider" id="myRange">
+
+    </div>
+
+
+
     <audio id="click" src="sounds/tink.wav"></audio>
+   
 
 </body>
 <script src="app.js"></script>
