@@ -11,7 +11,7 @@ This project was inspired from the WesBos JavaScript30 course. During this cours
 - Slider to quickly allow user to change tempo in real-time.
  
 ## Screenshots
-![Screenshot](https://i.imgur.com/29BZH25t.png "Screenshot of UI")
+![Screenshot](https://i.imgur.com/0nd5pVll.jpg "Screenshot of UI")
 
 ## Tech used
 Everything in this app is just using plain VanillaJS. I also try to follow some Material Design guidelines to help have a more pleasant UI.
